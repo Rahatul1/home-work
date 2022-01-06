@@ -1,0 +1,203 @@
+body{
+font-family: 'Raleway', sans-serif;
+padding: 0%;
+margin: 0%;
+background-color: rgb(244, 244, 255);
+}
+h1{
+    font-size: 45px;
+}
+.at{
+    color: limegreen;
+}
+.section-top{
+    display: flex;
+}
+.mission{
+    width: 50%;
+    margin: 100px;
+    padding-left: 40px;
+    margin-bottom: 30px; 
+}
+.mission img{
+    height: auto;
+    width: 110%;
+}
+.mission .ab{
+    text-decoration: none;
+    background-color: mediumorchid;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: mintcream;
+}
+.mission h5{
+    padding-top: 30px;
+    color: gray;
+}
+.mission p{
+    padding-bottom: 10px;
+}
+.mission h1{
+    border-left: 3px solid;
+    border-image: linear-gradient(limegreen, blue );
+    border-image-slice: 1%;
+    padding: 0% 2%;
+}
+.section-middle{
+    text-align: center;
+}
+#color{
+    color: violet;
+}
+.middle-part{
+    display: flex;
+    padding: 10px 100px;
+
+}
+.middle-part img{
+    width: 50%;
+    height: auto;
+}
+.vission-1{
+    background-color: rgb(255, 255, 194);
+    text-align: justify;
+    margin: 10px 15px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.vission-2{
+    background-color: rgb(222, 255, 203);
+    text-align: justify;
+    margin: 10px 15px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.vission-3{
+    background-color: rgb(255, 232, 232);
+    text-align: justify;
+    margin: 10px 15px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.section-part{
+    display: flex;
+    padding-bottom: 50px;
+}
+.develop{
+    width: 50%;
+    margin: 100px;
+    padding-left: 60px;
+    margin-bottom: 30px; 
+}
+.section-part .develop{
+    border-right: 50px;
+}
+.develop img{
+        height: auto;
+        width: 220%;
+}
+.develop .doc{
+    text-decoration: none;
+    background-color: rgb(211, 85, 127);
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: mintcream;
+}
+#develop{
+    width: 180%;
+    padding-top: 30px;
+}
+.develop p{
+    padding-bottom: 10px;
+    color: rgb(80, 78, 78);
+    text-decoration: 5px;
+    font-size: 20px;
+}
+.develop h1{
+    font-size: 30px;
+}
+#img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 160px;
+}
+.section-last-one{
+    display: flex;
+    padding: 10px 5px 100px 100px;
+}
+.img-1 img{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.develop-in{
+    border: 10px 20px;
+    margin: 10px 20px;
+}
+.develop-in p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.develop-in .doc{
+    text-decoration: none;
+    background-color: rgb(211, 85, 127);
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: mintcream;
+}
+.footer{
+    background-color: rgb(44, 12, 12);
+    color: rgb(211, 174, 174);
+    text-align: center;
+    font-family: 'Moon Dance', cursive;
+    padding-bottom: 20px;
+}
+.footer h1{
+    padding-top: 20px;
+}
+#sp{
+    color: rgb(218, 106, 218);
+}
+#img-1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right 30px top 250px;
+    background-size: 200px;
+}
+.rage{
+   text-align: center
+}
+.rage h2{
+    color: rgb(209, 55, 55);
+}
+.from{
+    text-align: justify;
+    padding-left: 10%;
+    color: yellowgreen;
+    padding-left: 100px;
+}
+.input{
+    padding: 0px 20%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+}
+#input-2{
+    padding: 0px 20%;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    text-align: center;
+    color: rgb(79, 128, 0);
+    border: 2px solid;
+    padding: 10px 15px;
+}
+#msg{
+    padding: 10px 70% 20px 0px;
+}
